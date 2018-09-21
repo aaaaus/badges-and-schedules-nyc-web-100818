@@ -16,7 +16,9 @@ end
 
 
 def assign_rooms(array)
+  room_messages = []
   array.each_with_index { |n, x| puts "Hello, #{n}! You'll be assigned to room #{x + 1}!"}
+  return room_messages
 end
 
 def printer
